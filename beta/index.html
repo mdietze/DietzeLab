@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ecological Forecasting Lab</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="lab_style.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="read_more.js"></script>
+</head>
+<body>
+
+<!---  Navigation Bar -->
+<div class="menu">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="index.html#research">Research</a></li>
+  <li><a href="people.html">People</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Publications</a>
+    <div class="dropdown-content">
+      <a href="publications.html">Journal</a>
+      <a target="_blank" href="http://ecoforecast.org/book">EcoForecast Book</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Tools</a>
+    <div class="dropdown-content">
+      <a target="_blank" href="http://pecanproject.org/">PEcAn</a>
+      <a target="_blank" href="https://github.com/EcoForecast/ecoforecastR">ecoforecastR</a>
+      <a target="_blank" href="http://github.com/EDmodel/ED2/wiki">ED2</a>
+    </div>
+  </li>
+</ul>
+</div>
+
+<!---  Banner image and text -->
+<div class="banner">
+  <div class="title">
+    <h1>Ecological Forecasting Lab</h1>
+    <p>Our Mission:<br>
+    To Understand and Predict Ecological Systems</p>
+  </div>
+</div>
+
+<div id="announce">
+  <h1>Announcements</h1>
+  
+  <h2>Recruiting Grad Students</h2>
+  
+  <p>We are recruiting new Graduate Students in the following areas:</p>
+  
+  <p><b>NEFI: Forecasting ticks, tick-borne disease, and small mammals</b> <i>CO-ADVISED with Shannon LaDeau, Cary Institute</i></p>
+
+  <p><b>NEFI: Forecasting soil microbial diversity and function</b> <i>CO-ADVISED with Jenny Talbot, BU Biology</i></p>
+  
+  <p><b>NEFI: Forecasting phenology and land-surface fluxes (Carbon, water, energy)</b></p>
+  
+  <p><b>Brown Dog: Vegetation Data</b></p>
+  
+</div>
+
+<div id="research">
+  
+  <h1 display=inline>Current Research</h1>   <p display=inline align=right><a href="#">Return to top</a></p>
+  
+  <h2>Near-term Ecological Forecasting Initiative (NEFI)</h2>  
+  <div class="sidebar-box blue">
+  <div class="grant">
+    M Dietze, J Talbot, S. LaDeau, K. Weathers "Collaborative Proposal: MSB-ENSA: The Near-term Ecological Forecasting Initiative" NSF Macrosystems (Recommended) 01/2017 - 12/2021
+  </div>
+  <p>Mankind is dependent upon the health of the natural world for its survival. However, in the face of climate change and other environmental challenges, society can no longer rely solely on past experience to understand and manage the world around us. This project asks the question, "What would it take to forecast ecological processes the same way we forecast the weather?" Central to this project is the development of an iterative cycle between making forecasts, performing analyses, and updating predictions in light of new evidence. This iterative process of gaining feedback, building experience, and correcting models and methods is critical for building a forecast capacity, and also a crucial part of any decision making under high uncertainty.</p>
+  <p>In addition to making ecology more relevant to management, near-term forecasts routinely compare specific, quantitative predictions to new data, which is one of the strongest tests of any scientific theory. This project will generate near-term forecasts that leverage ecological data collected by the National Ecological Observatory Network and spanning a wide range of themes: leaf phenology, land carbon and energy fluxes, tick-borne disease incidence, small-mammal populations, aquatic productivity, and soil microbial diversity and function. This broad, comparative approach will be used to address cross-cutting hypotheses about the nature of predictability in ecology and develop an overarching body of forecasting theory and methods.</p>
+  <p>The Near-term Ecological Forecasting Initiative (NEFI) will advance ecological knowledge at three levels: (1) overarching across-theme hypotheses about the predictability of ecological systems; (2) pressing within-theme questions about what drives process and predictability; and (3) advancing the tools and techniques that will enable an iterative approach to quantitative hypothesis testing. The overarching hypotheses of this project are that: (1) ecological predictability is more driven by processes error than initial condition error; (2) there are consistent patterns in the sources of uncertainty across themes; (3) across themes, spatial and temporal autocorrelation are positively correlated; and (4) spatial and temporal autocorrelation are positively correlated with limits of predictability. Overall, the answers to these questions address to what extent there are general patterns to ecological predictability, which would advance both our basic understanding of ecological processes and constrain the practical problem of making forecasts.</p>
+  <p>The expected outcomes of NEFI are to: (1) Disseminate data products and predictions that benefit society; (2) Develop new tools and cyberinfrastructure that enhances research and education; and (3) to promote teaching, training, and learning. Specific NEFI forecasts, such as tick-borne disease risk, aquatic blooms, carbon sequestration, and leaf phenology, are of direct relevance to society. Forecasts will be made available via open cyberinfrastructure that disseminates forecasts to the public and allows other ecologists to contribute new forecasts. To produce these forecasts, NEFI will develop an open-source statistical package, ecoforecastR, which will advance the tools and techniques beyond what is currently used by the community. Finally, in addition to the graduate students directly mentored through the project, NEFI will run an annual summer course on ecological forecasting that will train the next generation of ecologists.</p>
+    	<p><br><br><br><br><br><br><br><br><br></p>			
+			<p class="read-more"><a href="#" class="button">Read More</a></p>
+	</div>
+  
+  <h2>PEcAn</h2>
+  <div class="sidebar-box blue">
+  <div class="grant">
+    M Dietze, A Desai, K McHenry "Collaborative Research: ABI Development: The PEcAn Project: A Community Platform for Ecological Forecasting"" NSF ABI, 07/2015 - 06/2019
+  </div>
+  <p>Computer simulations play an essential role in ecological research, the management of national forests and other public and private land resources, and projections of climate change impacts on ecosystem services at the local, state, national, and international level. However, at the moment, there are a number of barriers slowing the pace of model improvement and reducing their wider use. First, the software for using each model is unique and does not communicate well with other models. Second, because each model is unique, the tools to manage data going into models, analyze models, and visualize results are not shared. In this project PEcAn (Predictive Ecosystem Analyzer) is being developed to provide a common set of software tools for researchers and land managers to effectively work with multiple ecosystem models and data. Web technologies will be used to allow distant modeling teams to share information, work together, and better use public and private cloud and supercomputing resources. Other tools will be developed to identify model errors and combine new and existing applications into workflows to make ecological research more efficient, better forecast ecosystem services, and support evidence-based decision making. The PEcAn team will also develop training tools for new users and work with the scientific community to add more models to PEcAn. PEcAn will make ecological research more transparent, repeatable, and accountable.</p>
+
+<p>PEcAn is an open-source ecoinformatics system designed for ecologists with a range of modeling backgrounds to be able to better and more easily parameterize, run, analyze, and assimilate data into ecosystem models at local and regional scales. This project will expand the PEcAn user community, incorporate more models, and develop tools that are more intuitive and accessible. Further, the project intends to transform tools for managing the flows of information into and out of ecosystem models into a resilient, scalable, and distributed peer-to-peer network for managing the flow of this information among modeling teams and with the broader community. To support a larger number of models, data processing workflows will be improved and tools will be developed for multi-model visualization and benchmarking. Applications that distribute analyses across the PEcAn network, cloud, and high-performance computing environments will be used to better understand model structural error using data mining approaches. Models will benchmarked over a range of environmental conditions, allowing model improvement to be tracked and users to select the best models for different applications in an informed manner. Finally, PEcAn tools will be combined into customizable workflows for real-time synthesis, forecasting, and decision support. By allowing modelers to focus on science rather than informatics, and allowing ecologists to easily compare their data to models, PEcAn will greatly accelerate the pace of model improvement and hypothesis testing. These activities are essential for improving ecosystem models and reducing uncertainty of the impacts of climate change on ecosystems and carbon cycle-climate feedbacks. Project information and results are available at <a target="_blank" href="http://pecanproject.org">http://pecanproject.org</a> while project computer code is available at <a target="_blank" href="https://github.com/pecanproject">https://github.com/pecanproject</a>.</p>
+  
+      	<p><br><br><br><br><br><br><br><br><br></p>			
+			<p class="read-more"><a href="#" class="button">Read More</a></p>
+	</div>
+  
+  <h2>PalEON</h2>
+  <div class="sidebar-box blue">
+  <div class="grant">
+    J. McLachlan, M. Dietze, P. Duffy, A. Finley, P. Higuera, M. Hooten, J. Marlon, D. Moore, N. Pederson, J. Williams, J. Zhu  "Collaborative Research and NEON: PalEON2 - a PaleoEcological Observatory Network to assess terrestrial ecosystem models" NSF Macrosystems 1241891 05/2013 - 04/2018
+  </div>
+  <p>Because of the slow pace of terrestrial ecosystem processes, including the slow generation time, growth rate, and decomposition rate of trees, the impact of changing climate and disturbance on forests plays out over hundreds of years. For this reason, terrestrial ecosystem models are used to anticipate the centennial scale projections of forest response to environmental change. Current terrestrial ecosystem model predictions vary widely and results have large statistical uncertainties. Furthermore, testing and calibration of these models relies on short term (sub-daily to decadal) data that fail to capture longer term trends and infrequent extreme events. The capacity of ecosystem models for scientific inference and long-term prediction would be greatly improved if uncertainties can be reduced through rigorous testing against observational data. PalEON is an interdisciplinary team of paleoecologists, statisticians, and modelers that have partnered to rigorously synthesize longer term paleoecological data and incorporate into ecosystem models to provide a deeper understanding of past dynamics and to use this knowledge to improve long-term forecasting capabilities.</p>
+
+<p>PalEON addresses four objectives and associated research questions: 1) Validation: How well do ecosystem models simulate decadal-to-centennial dynamics when confronted with past climate change, and what limits model accuracy? 2) Initialization: How sensitive are ecosystem models to initialization state and equilibrium assumptions? Do data-constrained simulations of centennial-scale dynamics improve 20thcentury simulations? 3) Inference: Was the terrestrial biosphere a carbon sink or source during the Little Ice Age and Medieval Climate Anomaly? and 4) Improvement: How can parameters and processes responsible for data-model divergences be improved? The data synthesis will include wide range of ecosystems, encompasses past climate variations that were large enough to affect tree growth rates, disturbance regimes, and forest demography, and leverages available paleodata. The synthesis will include 1) fossil pollen and Public Land Survey data to reconstruct forest composition, 2) sedimentary charcoal, stand-age and firescar indicators of past disturbance regimes, 3) tree-ring records of tree growth rates, and 4) multiple paleoclimatic proxies and paleoclimatic simulations. Bayesian hierarchical statistical models will be used to reconstruct key ecological variables and their associated uncertainty estimates. A standardized model intercomparison involving 13 ecosystem modeling groups will be used to evaluate the robustness of the modeling approach.</p>
+
+<p>Three areas will be emphasized for PalEON's broader impacts. Community Building: The PalEON research community has doubled over the past 10 months, with more than 60 participants now. It is anticipated to nearly another doubling over the next five years, and the funds will allow the ongoing community-building via annual large meetings and task-oriented workshops. Interdisciplinary Training and Mentoring: A new generation of researchers will be trained to naturally conceptualize large spatial and temporal scales and to approach ecological forecasting as an integrative activity spanning data collection to model prediction.  Additionally, the PalEON Summer Short Course provides an intensive cross-training experience for young scientists in all areas encompassed by PalEON. The 2012 course will be followed by courses in 2014 and 2016. Building Scientific Infrastructure: All PalEON datasets will be made publicly available upon publication, as will our new data-assimilation methods and model intercomparison protocols. Tools will be developed for optimal site selection (given the goal of reducing the integrated prediction uncertainty about past vegetation and climate over space and time) and will distribute a publicly available webtool version that will be linked directly to the Neotoma Paleoecology Database.</p>
+        	<p><br><br><br><br><br><br><br><br><br></p>			
+			<p class="read-more"><a href="#" class="button">Read More</a></p>
+	</div>
+  
+  <h2>SERDP Ticks</h2>
+  <div class="sidebar-box blue">
+  <div class="grant">
+    B. Allen, L. Flory, M Dietze "Climate change impacts on fire regimes, plant invasions and tick-borne disease exposure risk" DOD SERDP, 05/2016-04/2021
+  </div>
+<p>Tick-borne diseases (TBDs) represent a major public health threat in North America, particularly for military personnel training on Department of Defense (DoD) installations. Ecological theory predicts that climate change will likely alter vector-borne disease transmission by a variety of direct and indirect pathways. We will explore several of the predicted consequences of climate change, including altered fire regimes and plant communities, and their interactions with wildlife, for human risk of exposure to TBDs in the southeastern U.S. We will undertake an integrated research effort to understand the consequences of climate change for TBD risk and human health, and to make specific, actionable recommendations to predict and ameliorate future changes in pathogen exposure pathways. Our specific objectives are to:
+1) Evaluate the interactions between fire and plant invasions spanning a gradient in fire management, invasive plant distribution and abundance, and climatic conditions across the southeastern U.S. 
+2) Quantify the effects of fire and plant invasions, and their interactions, for variation in wildlife abundance, tick abundance, tick infection rates, and TBD risk to humans. 
+3) Calibrate a spatially explicit model of TBD risk in response to fire-invasion interactions and incorporate simulations of climate change scenarios to examine the responses of fire, plant invasions, wildlife, TBD risk, and their interactions.</p>
+        	<p><br><br><br><br><br><br><br><br><br></p>			
+			<p class="read-more"><a href="#" class="button">Read More</a></p>
+	</div>
+
+  <h2>NASA RTM</h2>
+  <div class="sidebar-box blue">
+  <div class="grant">
+    S. Serbin, M. Dietze, P. Townshend. "Assimilation of imaging spectroscopy data to improve the representation of vegetation dynamics in ecosystem models" NASA Terrestrial Ecosystems, 03/2014 - 03/2017
+  </div>
+  <p>The ability to seamlessly integrate information on forest function across a continuum of scales, from field to satellite observations, greatly enhances our ability to understand how terrestrial vegetation-atmosphere interactions change over time and in response to anthropogenic and natural disturbances. This project focuses on the use of field (spectroscopy) and high-spectral resolution remote sensing observations (i.e. imaging spectroscopy, IS), within an efficient model-data assimilation framework, to improve the characterization of vegetation dynamics in terrestrial ecosystem models. Our primary objective is to comprehensively examine the potential for direct assimilation of optical remote sensing observations into sophisticated ecosystem models to better constrain projections of energy balance, vegetation composition, and carbon pools and fluxes. This project represents a novel step toward improving our ability to better diagnose ecosystem vulnerability to environmental change and predict responses to climatic and other perturbations. This effort comes at a crucial time because the experimental, remote sensing, and modeling communities have entered into an increasingly data-rich era; however the tools needed to make use of the numerous but disparate data for model improvements are currently lacking. For example, remote sensing can provide detailed spatial and temporal information on a number of important biophysical and biochemical properties of ecosystems, such as leaf optical properties, leaf chemistry, morphology, vegetation composition and structure. State-of-the-art dynamic vegetation ecosystem models, such as the Ecosystem Demography (ED v2.2) model (Medvigy et al., 2009), a physiologically-based forest community model, can potentially use this information to improve model representation of vegetation dynamics. ED is especially relevant to these efforts because it contains a sophisticated structure for scaling ecological processes across a range of spatial scales: from tree-level physiology to stand demography to landscape heterogeneity to regional carbon, water, and energy fluxes, which allows for the direct use of remotely sensed data at the appropriate spatial scale. The project leverages an ecosystem modeling framework extensive existing field and imaging spectroscopy (IS) data that have been collected by Serbin and Townsend in the upper Midwest US, as well as from California as part of the ongoing NASA HyspIRI Airborne Campaign, and other from other sites in the eastern US with extensive data records. We are utilizing a radiative transfer modeling (RTM) module being developed by Serbin and Dietze for use with the ED2 model and Predictive Ecosystem Analyzer (PEcAn, LeBauer et al., 2012) workflow system (www.pecanproject.org) to enable efficient assimilation of spectral reflectance observations from IS data (and eventually any optical remote sensing observations, such as Landsat and MODIS/VIIRS). This open-source workflow system directly ingests spectral observations rather than derived products. This will improve the models parameterization of canopy optical properties and the surface energy balance. Through state-variable data assimilation we will fuse AVIRIS (or other IS data), flux towers, forest inventories, and model projections to reconcile estimates of vegetation composition and carbon pools and fluxes. The resulting data product will provide the basis to develop a better understanding of the drivers of spatial and temporal variability in the carbon cycle and the sources of uncertainty in these estimates. This project is an important step toward the operational capacity to assimilate reflectance observations, uniformly, within sophisticated ecosystem models with the goal to accurately constraining model projections of carbon pools and fluxes of terrestrial ecosystems.</p>
+          	<p><br><br><br><br><br><br><br><br><br></p>			
+			<p class="read-more"><a href="#" class="button">Read More</a></p>
+	</div>
+
+  <h2>Brown Dog</h2>
+  <div class="sidebar-box blue">
+  <div class="grant">
+    K. McHenry, M. Dietze, J. Lee, P. Kumar, B. Minsker  "CIF21 DIBBs - Brown Dog" NSF DIBBs 1261582, 11/2013 - 11/2018
+  </div>
+  <p>The information age has made it trivial for anyone to create and then share vast amounts of digital data. This includes unstructured collections made of data such as images, video, and audio to collections of born digital content made up of data such as documents and spreadsheets. While the creation and sharing of content has been made easy, its inverse, the ability to search and use the contents of digital data, has been made exponentially more difficult. In the physical analogue librarians have used the process of curation to standardize the format by which information is stored and diligently index holdings with metadata to allow both current and future generations to find information. Digitally this does not happen as that curation overhead is an unwelcomed bottleneck to the creation of more data. Though popular services such as modern search engines give the illusion that this is being done, this is largely over the portion of digital data that is text based and/or containing text metadata. Unstructured collections and contents trapped behind difficult to read file formats, however, make up a significant part of our collective digital data assets and are largely not accessible.</p>
+
+<p>Science today not only uses but relies on software and digital content. It is well known that science is not only responsible for a significant amount of our digital data holdings but that also much of this is un-curated data, what the scientific community currently refer to as "long-tail" data. As such contemporary science, which relies on digital data and software, software which evolves and disappears quickly as underlying technology changes, is entering a realm where scientific results are no-longer easily reproducible and as such in essence no longer a science as science hinges on the fact that a documented procedure will result in the same result each time.</p>
+          	<p><br><br><br><br><br><br><br><br><br></p>			
+			<p class="read-more"><a href="#" class="button">Read More</a></p>
+	</div>
+
+  <h2>Gap Macrosystems</h2>
+  <div class="sidebar-box blue">
+  <div class="grant">
+    J. Clark, M. Dietze, A. Finley, A Gelfand, J. Mohan, M. Uriarte.  "Collaborative Research: Climate change impacts on forest biodiversity: individual risk to subcontinental impacts"  NSF Macrosystems 1318164,  10/2011 to 9/2016
+  </div>
+  <p>Climate change is rapidly transforming forests over much of the globe in ways that are not anticipated by current science. Large scale forest diebacks, apparently linked to interactions involving drought, warm winters, and other species, are becoming alarmingly frequent. Models of biodiversity and climate have not provided guidance on if, where or when such responses will occur. Instead models tend to provide potential numbers of extinctions, but such forecasts are not linked in any mechanistic way to the processes that could cause them. Both modeling and field studies rely on aggregate measures of species presence or absence, or their relative abundance at regional scales. However, climate acts on individuals. Aggregating data on individual trees to the level of a whole species hides or may even change predictions of climate effects. This study aims to link individual scale tree processes to regional species level responses by sampling and analyzing data about individuals across their entire range and corresponding range in climate conditions. It will use data from existing research sites, plus the platform of sites that form the core of the new National Ecological Observatory Network. These data will be collectively synthesized and used to develop computer models that can help determine when and where predicting climate impacts on biodiversity is a plausible goal. The models will also reveal where surprises are likely to occur and can provide feedback to expectations of individual tree health and vulnerability to environmental changes. </p>
+
+<p>This study will provide the first forecasts of the vulnerability of forest biodiversity to changes in climate that are directly linked to the biological processes that are most sensitive. The goal is to provide forecasts of the distribution, growth, reproduction and risks of mortality for tree species making up the nation's forests. These predictions will help scientists, forest managers and policy makers anticipate the combined risks of increasing drought and longer growing seasons. Methods and results developed during this project will be disseminated through workshops for training resource managers, as well as graduate students and postdoctoral associates at a number of universities.</p>
+  <p><br><br><br><br><br><br><br><br><br></p>			
+	<p class="read-more"><a href="#" class="button">Read More</a></p>
+	</div>
+  
+  
+  <h2>Canopy traits</h2>
+		<div class="sidebar-box blue">
+		  <div class="grant">
+		    M Dietze, A. Shiklomanov "Tracking successional dynamics of foliar traits using remote sensing" NASA NESSF 09/2016-08/2019
+		  </div>
+			<p>Our predictions of the fate of the terrestrial biosphere are limited by coarsely discretized representations of ecosystem functional responses to environmental change. Trait based approaches allow representations of continuous variability in plant function. However, temporal patterns of trait variability through ecological succession, including the influences of climate, topography, and soil, are poorly understood, largely due to the sparsity of observations at the requisite spatial and temporal scales. <b>The goal of this project is to understand the recovery of plant functional responses following disturbance by mapping four key traits -- foliar chlorophyll concentration, foliar water content, leaf mass per unit area (LMA), and foliar nitrogen concentration (N mass)</b>. This research project is guided by the following hypotheses:</p>
+
+<p>H1. Two independent processes control canopy function during succession, resulting in two distinct axes of foliar trait covariance: Light availability controls LMA and chlorophyll concentration, while water and nutrient availability control foliar water content and N mass. </p>
+
+<p>H2. Abiotic factors including climate, topography, and soil conditions will directly influence foliar water content and N mass, while patterns in chlorophyll and LMA will be influenced by stand age, which is a proxy for stand structure.</p>
+
+<p>H3. Post-disturbance patterns of chlorophyll and LMA will be affected by disturbance severity and type due to the immediate effects on the light environment, while post-disturbance spatial distributions of N mass and foliar water content will reflect pre-disturbance vegetation.</p>
+
+We will evaluate each of these hypotheses through the following major research objectives, which map directly onto the respective hypotheses:
+
+<p>O1. Leverage the Landsat archive, validated with field observations and AVIRIS imagery, to map the post-disturbance trajectories of foliar traits in the data­rich northern Wisconsin hardwood region (Figure 1).</p>
+
+<p>O2. Build a hierarchical Bayesian model to explore covariance of mapped traits and abiotic covariates including climate, topography, and soil type.</p>
+
+<p>O3. Compare temporal trajectories and emergent spatial patterns of foliar traits between different disturbance types such as insect infestation, fragmentation, and management.</p>
+
+			<p><br><br><br><br><br><br><br><br><br><br><br><br></p>			
+			<p class="read-more"><a href="#" class="button">Read More</a></p>
+		</div>
+  
+  
+  <h2>Nonstructural Carbon</h2>
+  <div class="sidebar-box blue">
+  <div class="grant">
+    M Dietze, J Mantooth "Dissertation Research: Linking Tree Demography and Nonstructural Carbon in Eastern US Forests" NSF DDIG 07/2015 - 06/2017
+  </div>
+   <p>Forests cover about 30% of the land surface, provide numerous human health and economic benefits, and are critically important to biodiversity. Despite the importance of forests to society, the responses of forests to climate change remain highly uncertain. Much of this uncertainty is driven by how models represent forest responses to environmental stress. This project will address this uncertainty by exploring the importance of tree energy storage to tree growth and mortality rates. While most animals store energy as fat, trees store energy as non-structural carbohydrates (NSCs; starch and sugar). It is hypothesized that trees rely on these energy reserves during times of environmental stress; however, few data are available to support this hypothesis. Using wood samples collected from over 3,000 trees of many different species in the eastern US, this project will answer three important questions: 1) How much carbon are trees allocating to storage versus new growth? 2) What model of tree carbon allocation best explains observed NSC patterns? 3) Can NSCs be used to predict tree death in eastern US forests? This information will be used to improve predictions of how forests will respond to future global change in an effort to inform decisions about how to use and preserve one of the world's most important resources.</p>
+
+<p>The samples used in this project represent dozens of tree species collected at 10 sites across the eastern US. The environmental and taxonomic breadth of the trees sampled in this study will first be used to assess trade-offs between tree NSC storage and growth. Next, the researchers will use the data to calibrate a terrestrial biosphere model, the Ecosystem Demography (ED2) model, and test multiple hypotheses regarding the constraints that affect the size and turnover rate of tree NSC. Finally, the ED2 model will be combined with data on tree death in the US Forest Service Forest Inventory and Analysis (FIA) to better understand the relationship between NSCs and mortality.
+   </p>
+  	<p><br><br><br><br><br></p>			
+			<p class="read-more"><a href="#" class="button">Read More</a></p>
+		</div>
+		
+		
+</div>  <!--  END RESEARCH -->
+
+</body>
+</html>
